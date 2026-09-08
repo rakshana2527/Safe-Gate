@@ -1,0 +1,36 @@
+# Flow of the Project
+
+START
+  ↓
+Read Sensors
+  ↓
+Vehicle Approaching?
+  │
+ NO ─────────→ Keep Barrier Closed
+  │                  │
+ YES                 │
+  ↓                  │
+Open Barrier         │
+  ↓                  │
+Vehicle Passing?     │
+  │                  │
+ YES → Keep Open     │
+  │                  │
+ NO                  │
+  ↓                  │
+CLEARING             │
+  ↓                  │
+Vehicle Detected?
+  │
+ YES → Keep Open ────┘
+  │
+ NO
+  ↓
+Safety Delay
+  ↓
+Close Barrier
+  ↓
+IDLE
+  ↓
+Read Sensors
+
