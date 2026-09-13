@@ -26,6 +26,6 @@ Safe Gate detects an approaching vehicle using an ultrasonic sensor and opens th
 - Breadboard and jumper wires
 - 220 Ω, 1 kΩ and 2.2 kΩ resistors
 
-## Circuit Diagram
+## Hardware connections
 > THe image of the hardware connections are also provided.
 > Note: A demo video is included in the repo — please download it, as it may not play directly in the browser.
