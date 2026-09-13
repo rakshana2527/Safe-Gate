@@ -26,3 +26,5 @@ Safe Gate detects an approaching vehicle, opens the barrier using a servo motor,
 - Breadboard and jumper wires
 - 220 Ω, 1 kΩ and 2.2 kΩ resistors
 
+- #Note: Please download the video, it might not play directly.
+
