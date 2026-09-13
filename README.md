@@ -4,7 +4,7 @@ A sensor-based automatic parking barrier made to improve vehicle entry and exit 
 
 ## Overview
 
-Safe Gate detects an approaching vehicle, opens the barrier using a servo motor, and detects the vehicle passing through. Once the vehicle is detected at the exit, the barrier closes again.
+Safe Gate detects an approaching vehicle using an ultrasonic sensor and opens the barrier using a servo motor. An IR sensor tracks whether the vehicle has passed through, and the OLED display shows live distance, IR status, and gate state.
 
 ## Features
 
@@ -26,5 +26,6 @@ Safe Gate detects an approaching vehicle, opens the barrier using a servo motor,
 - Breadboard and jumper wires
 - 220 Ω, 1 kΩ and 2.2 kΩ resistors
 
-- #Note: Please download the video, it might not play directly.
-
+## Circuit Diagram
+> THe image of the hardware connections are also provided.
+> Note: A demo video is included in the repo — please download it, as it may not play directly in the browser.
